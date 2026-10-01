@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+.App {
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+}
+
+.light-mode { background-color: #ffffff; color: #000000; }
+.dark-mode { background-color: #333333; color: #ffffff; }

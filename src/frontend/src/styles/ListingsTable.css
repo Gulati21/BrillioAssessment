@@ -1,0 +1,62 @@
+.table-wrapper {
+    position: relative;
+    width: fit-content;
+    margin: 100px auto;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.filter-button {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    background: #e0e0e0;
+    cursor: pointer;
+}
+
+.listings-table {
+    width: 100%;
+    min-width: 800px;
+    max-width: 2000px;
+    max-height: 800px;
+    border-collapse: collapse;
+}
+
+.listings-table th, .listings-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.listings-table th {
+    cursor: pointer;
+}
+
+.light-mode .listings-table th { background-color: #e1bee7; }
+.dark-mode .listings-table th { background-color: #4a148c; color: white; }
+.dark-mode .listings-table td { background-color: #555; }
+
+.listings-table tr:nth-child(even) { background-color: #fce4ec; }
+.listings-table tr:nth-child(odd) { background-color: #e3f2fd; }
+.dark-mode .listings-table tr:nth-child(even) { background-color: #444; }
+.dark-mode .listings-table tr:nth-child(odd) { background-color: #555; }
+
+.rounded-button {
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: none;
+    background: #e0e0e0;
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
